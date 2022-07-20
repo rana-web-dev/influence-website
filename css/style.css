@@ -39,17 +39,11 @@ nav {
     align-items: center;
     padding: 50px 0;
 }
-.bars {
+/* .bars {
     z-index: 999;
-}
+} */
 nav .bars .bar {
-    width: 23px;
-    height: 4px;
-    background-color: rgb(0, 0, 0);
-    margin-bottom: 3px;
-}
-nav .bars .bar:last-child {
-    margin-bottom: 0;
+    font-size: 20px;
 }
 nav .navbar ul {
     display: flex;

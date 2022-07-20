@@ -8,9 +8,16 @@
         height: 100%;
         left: 0;
         top: 0;
-        background: red;
+        background: #03A9F4;
         margin-left: -100%;
         transition: all 0.3s ease;
+    }
+    p.nav-close {
+        position: absolute;
+        right: 30px;
+        top: 7px;
+        font-size: 34px;
+        color: #fff;
     }
     .navbar-ml {
         margin-left: 0!important;
@@ -47,7 +54,7 @@
         padding-bottom: 50px;
     }
     header .main-content h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
     header .main-content p {
         font-size: 12px;
