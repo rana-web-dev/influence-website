@@ -1,0 +1,178 @@
+/* Import Fonts Start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* Import Fonts End*/
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+/* Utilities CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    list-style: none;
+    text-decoration: none;
+}
+.max-width {
+    max-width: 1170px;
+    margin: auto;
+}
+/* Utilities CSS End */
+
+/* Body section start */
+body {
+    /* padding: 45px 60px 0px 60px; */
+    background-color: #fff;
+    font-family: 'poppins';
+}
+/* Body section End */
+
+/* Header Section Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+nav .navbar ul {
+    display: flex;
+}
+nav .navbar ul li a {
+    margin-left: 15px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+/* Header Section End */
+
+/* Main section start */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+header .main-content {
+    width: 50%;
+}
+header .main-content h1 {
+    font-weight: 700;
+    font-size: 52px;
+}
+header .main-content h3 {
+    width: 95%;
+}
+header .main-content a {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: crimson;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'poppins' sans-serif;
+    font-weight: 600;
+}
+header .prebookNow {
+    border-radius: 5px;
+    transition: color 0.2s ease-in;
+}
+header .prebookNow:hover {
+    background-color: #b60e30;
+}
+header .main-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .main-img img {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 100%;
+    padding: 5px;
+}
+/* Main section End */
+/* Brand Section Start */
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+/* Brand Section End */
+/* Popular Collection Start */
+.popular-collection {
+    padding-bottom: 50px;
+}
+.popular-collection .popular-collection-title-text {
+    text-align: center;
+    font-size: 32px;
+    padding: 50px 0;
+}
+.popular-collection .popular-collection-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.popular-collection .pc-box {
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+} 
+.popular-collection .pc-box-title {
+    padding: 4px 0;
+}
+.popular-collection .pc-box-img {
+    width: 100%;
+}
+/* Popular Collection End */
+/* See more section Start */
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+.see-more-btn {
+    color: crimson;
+}
+/* See more section End */
+/* Featured products start */
+.featured-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.featured-products-content {
+    padding-left: 50px;
+}
+.featured-products .featured-products-title-text {
+    padding: 30px 0;
+}
+.featured-products .featured-products-join-now-btn {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: crimson;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'poppins' sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.featured-products .featured-products-join-now-btn:hover {
+    background-color: #b60e30;
+}
+/* Featured products end */
+/* Footer Start */
+footer {
+    padding: 50px 0;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+/* Footer End */
+
