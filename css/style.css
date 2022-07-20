@@ -38,6 +38,18 @@ nav {
     align-items: center;
     padding: 50px 0;
 }
+nav .bars .bar {
+    width: 23px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+}
+nav .bars .bar:last-child {
+    margin-bottom: 0;
+}
+.navbar {
+    display: none;
+}
 nav .navbar ul {
     display: flex;
 }
@@ -173,6 +185,13 @@ footer {
     background-color: blue;
     color: #fff;
     text-align: center;
+}
+footer .footer-title h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer .footer-title p {
+    font-size: 14px;
 }
 /* Footer End */
 
